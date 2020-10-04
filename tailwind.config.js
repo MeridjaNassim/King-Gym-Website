@@ -9,7 +9,12 @@ module.exports = {
       "display" : ["Noto Sans","sans-serif"],
       "body" : ["Noto Sans","sans-serif"],
     },
-    extend: {},
+    extend: {
+      colors : {
+        "primary" :"#EACD05",
+        "secondary":"#B8ABBC"
+      }
+    },
   },
   variants: {},
   plugins: [],
