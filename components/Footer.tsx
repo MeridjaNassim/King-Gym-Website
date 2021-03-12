@@ -4,7 +4,7 @@ import React, { ReactElement } from 'react'
 function Footer(): ReactElement {
     return (
         <footer className="relative bg-primary pt-8 pb-6">
-        <div
+        {/* <div
           className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style={{ height: "80px", transform: "translateZ(0)" }}
         >
@@ -22,7 +22,7 @@ function Footer(): ReactElement {
               points="2560 0 2560 100 0 100"
             ></polygon>
           </svg>
-        </div>
+        </div> */}
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap">
             <div className="w-full lg:w-6/12 px-4">
@@ -32,104 +32,102 @@ function Footer(): ReactElement {
               <h5 className="text-lg mt-0 mb-2 text-gray-700">
                 Find us on any of these platforms, we respond 1-2 business days.
               </h5>
-              <div className="mt-6">
-                <button
-                  className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
+              <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
+              <li className="flex items-center">
+                <a
+                  className={
+    
+                    "text-black px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  }
+                  href="#pablo"
                 >
-                  <i className="flex fab fa-twitter"></i>
-                </button>
-                <button
-                  className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
+                  <i
+                    className={
+                      
+                      "text-black fab fa-facebook text-lg leading-lg "
+                    }
+                  />
+                  <span className="lg:hidden inline-block ml-2">Like on facebook</span>
+                </a>
+              </li>
+
+              <li className="flex items-center">
+                <a
+                  className={
+                    
+                    "text-black px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  }
+                  href="#pablo"
                 >
-                  <i className="flex fab fa-facebook-square"></i>
-                </button>
-                <button
-                  className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
+                  <i
+                    className={
+                      
+                      "text-black fab fa-twitter text-lg leading-lg "
+                    }
+                  />
+                  <span className="lg:hidden inline-block ml-2">Tweet</span>
+                </a>
+              </li>
+
+              <li className="flex items-center">
+                <a
+                  className={
+                    
+                    "text-black px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  }
+                  href="#pablo"
                 >
-                  <i className="flex fab fa-dribbble"></i>
-                </button>
-                <button
-                  className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                  type="button"
-                >
-                  <i className="flex fab fa-github"></i>
-                </button>
-              </div>
+                  <i
+                    className={
+                       
+                      "text-black fab fa-instagram text-lg leading-lg "
+                    }
+                  />
+                  <span className="lg:hidden inline-block ml-2">Star</span>
+                </a>
+              </li>
+
+            </ul>
             </div>
             <div className="w-full lg:w-6/12 px-4">
               <div className="flex flex-wrap items-top mb-6">
                 <div className="w-full lg:w-4/12 px-4 ml-auto">
-                  <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
-                    Useful Links
+                  <span className="block uppercase text-black text-sm font-semibold mb-2">
+                    Nous Contacter
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/presentation">About Us
+                      <p className="text-black font-semibold block pb-2 text-sm"
+                        ><i className="text-black text-sm fas fa-phone"></i> +213672439370
+                      </p>
+                    </li>
+                    <li>
+                      <a className="text-black font-semibold block pb-2 text-sm"
+                        href="mailto:ha_meridja@esi.dz"><i className="fas fa-at"></i> ha_meridja@esi.dz
                       </a>
                     </li>
                     <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://blog.creative-tim.com">Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://www.github.com/creativetimofficial">Github
-                      </a>
-                    </li>
-                    <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/bootstrap-themes/free">Free Products
+                      <a className="text-black font-semibold block pb-2 text-sm"
+                        href="https://www.creative-tim.com/bootstrap-themes/free"><i className="fas fa-map-marked-alt"></i> Cinq maison, mohammadia Alger
                       </a>
                     </li>
 
                   </ul>
                 </div>
-                <div className="w-full lg:w-4/12 px-4">
-                  <span className="block uppercase text-gray-600 text-sm font-semibold mb-2">
-                    Other Resources
-                  </span>
-                  <ul className="list-unstyled">
-                    <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md">MIT License
-                    </a>
-                    </li>
-                    <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/terms">Terms & Conditions
-                      </a>
-                    </li>
-                    <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/privacy">Privacy Policy
-                      </a>
-                    </li>
-                    <li>
-                      <a className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                        href="https://creative-tim.com/contact-us">Contact Us
-                      </a>
-                    </li>
-                  </ul>
-
-                </div>
+  
               </div>
             </div>
           </div>
           <hr className="my-6 border-black" />
           <div className="flex flex-wrap items-center md:justify-between justify-center">
             <div className="w-full md:w-4/12 px-4 mx-auto text-center">
-              <div className="text-sm text-gray-600 font-semibold py-1">
-                Copyright © {new Date().getFullYear()}{" "}Tailwind Starter Kit by{" "}
+              <div className="text-sm text-black font-semibold py-1">
+                Copyright © {new Date().getFullYear()}{" "}MERIDJA ABDELLAH NASSIM{" "}
                 <a
                   href="https://www.creative-tim.com"
-                  className="text-gray-600 hover:text-gray-900"
+                  className="text-black hover:text-gray-900"
                 >
-                  Creative Tim
+                  KING GYM
                 </a>.
               </div>
             </div>
