@@ -36,9 +36,7 @@ const About = () => <section id="about" className="relative py-20 bg-primary">
             The place to train...
             </h2>
           <p className="mt-4 text-lg leading-relaxed text-black">
-            The extension comes with three pre-built pages to help you
-            get started faster. You can change the text and images and
-            you're good to go.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim vitae, ea libero perspiciatis sequi nobis animi id reiciendis delectus deserunt atque tempora laudantium magni officia odit optio magnam illum dolorem!
             </p>
           <ul className="list-none mt-6">
             <li className="py-2">
@@ -49,9 +47,9 @@ const About = () => <section id="about" className="relative py-20 bg-primary">
                   </span>
                 </div>
                 <div>
-                  <h4 className="text-black">
-                    Carefully crafted components
-                    </h4>
+                  <p className="text-black">
+                    Best equipement
+                    </p>
                 </div>
               </div>
             </li>
@@ -63,7 +61,7 @@ const About = () => <section id="about" className="relative py-20 bg-primary">
                   </span>
                 </div>
                 <div>
-                  <h4 className="text-black">Amazing page examples</h4>
+                  <p className="text-black">Best Training</p>
                 </div>
               </div>
             </li>
@@ -75,7 +73,7 @@ const About = () => <section id="about" className="relative py-20 bg-primary">
                   </span>
                 </div>
                 <div>
-                  <h4 className="text-black">Dynamic components</h4>
+                  <p className="text-black">Great Dynamic</p>
                 </div>
               </div>
             </li>

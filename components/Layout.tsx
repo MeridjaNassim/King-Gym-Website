@@ -6,6 +6,7 @@ import Footer from './Footer'
 interface Props {
   title?: string,
   transparent?: boolean
+  description?:string
 }
 
 const Layout = (props: PropsWithChildren<Props>) => {
@@ -18,6 +19,7 @@ const Layout = (props: PropsWithChildren<Props>) => {
         <title>{props.title}</title>
         <meta charSet="utf-8" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="description" content={props.description}/>
       </Head>
       <header>
         <Navbar transparent={true} />

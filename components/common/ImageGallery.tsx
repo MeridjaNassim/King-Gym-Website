@@ -32,7 +32,7 @@ const ImageGallery: React.FC<Props> = (props) => {
             </div>
             if (image.previewSource.length !== 0) {
 
-                return <div style={style}>
+                return <div style={style} key={image.uid}>
                     <LoadableImage key={image.uid} preview={image.previewSource} src={image.source}>
                         {({ src }) => <ImageWithOverlay src={src} alt={image.alt} style={props.imageStyle} />}
                     </LoadableImage>

@@ -8,7 +8,7 @@ interface Props {
 
 function MapEmbedder({mapUrl}: Props): ReactElement {
     return (
-        <iframe src={mapUrl} width="100%" height="100%"  allowFullScreen loading="lazy"></iframe>
+        <iframe title="king gym location" src={mapUrl} width="100%" height="100%"  allowFullScreen loading="lazy"></iframe>
     )
 }
 

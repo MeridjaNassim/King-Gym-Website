@@ -3,7 +3,9 @@ import Layout from '../components/Layout'
 import { Cardio, WeightLifting, Crossfit, Hero, About, Pricing } from '../components/sections'
 import MapLocation from '../components/sections/MapLocation'
 const IndexPage = () => (
-  <Layout title="KING GYM ALGERIA">
+  <Layout 
+  title="KING GYM ALGERIA" 
+  description="King Gym is local gym situated in Cinq maison el mohammadia Algiers, Algeria where amateurs and professionals in weightlifting train their bodies to achieve health benefits and improve their athletism">
 
     <Hero />
     <About />

@@ -3,7 +3,7 @@ import React, { ReactElement } from 'react'
 
 function Footer(): ReactElement {
     return (
-        <footer className="relative bg-primary pt-8 pb-6">
+        <footer id="contact" className="relative bg-primary pt-8 pb-6">
         {/* <div
           className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style={{ height: "80px", transform: "translateZ(0)" }}
@@ -30,7 +30,7 @@ function Footer(): ReactElement {
                 Let's keep in touch!
               </h4>
               <h5 className="text-lg mt-0 mb-2 text-gray-700">
-                Find us on any of these platforms, we respond 1-2 business days.
+                Find us on any of these platforms, we respond within hours.
               </h5>
               <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="flex items-center">
@@ -44,7 +44,7 @@ function Footer(): ReactElement {
                   <i
                     className={
                       
-                      "text-black fab fa-facebook text-lg leading-lg "
+                      "text-black hover:text-gray-700 transition-all duration-150 ease-in fab fa-facebook text-lg leading-lg "
                     }
                   />
                   <span className="lg:hidden inline-block ml-2">Like on facebook</span>
@@ -62,7 +62,7 @@ function Footer(): ReactElement {
                   <i
                     className={
                       
-                      "text-black fab fa-twitter text-lg leading-lg "
+                      "text-black hover:text-gray-700 transition-all duration-150 ease-in fab fa-twitter text-lg leading-lg "
                     }
                   />
                   <span className="lg:hidden inline-block ml-2">Tweet</span>
@@ -73,14 +73,14 @@ function Footer(): ReactElement {
                 <a
                   className={
                     
-                    "text-black px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    "text-black  px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   }
                   href="#pablo"
                 >
                   <i
                     className={
                        
-                      "text-black fab fa-instagram text-lg leading-lg "
+                      "text-black hover:text-gray-700 transition-all duration-150 ease-in fab fa-instagram text-lg leading-lg "
                     }
                   />
                   <span className="lg:hidden inline-block ml-2">Star</span>
@@ -97,18 +97,18 @@ function Footer(): ReactElement {
                   </span>
                   <ul className="list-unstyled">
                     <li>
-                      <p className="text-black font-semibold block pb-2 text-sm"
+                      <p className="text-black font-semibold block py-4 text-sm"
                         ><i className="text-black text-sm fas fa-phone"></i> +213672439370
                       </p>
                     </li>
                     <li>
-                      <a className="text-black font-semibold block pb-2 text-sm"
+                      <a className="text-black font-semibold block py-4 text-sm"
                         href="mailto:ha_meridja@esi.dz"><i className="fas fa-at"></i> ha_meridja@esi.dz
                       </a>
                     </li>
                     <li>
-                      <a className="text-black font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/bootstrap-themes/free"><i className="fas fa-map-marked-alt"></i> Cinq maison, mohammadia Alger
+                      <a className="text-black font-semibold block py-4 text-sm"
+                        href="#"><i className="fas fa-map-marked-alt"></i> Cinq maison, mohammadia Alger
                       </a>
                     </li>
 

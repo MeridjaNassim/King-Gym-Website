@@ -31,13 +31,11 @@ const Hero : React.FC = () => {
                 Where kings are born.
                   </h1>
               <p className="mt-4 text-lg text-gray-300">
-                This is a simple example of a Landing Page you can build
-                using Tailwind Starter Kit. It features multiple CSS
-                components based on the Tailwindcss design system.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem consequatur suscipit odio ipsam cupiditate illum tempore dolor asperiores repudiandae perferendis modi, exercitationem quis, rem libero voluptatibus sapiente distinctio fuga quos.
                   </p>
               <div className="mt-6 container flex justify-center">
                 <a href="#" className="transition-colors duration-100 ease-linear mr-4 bg-black text-white px-4 py-2 rounded-sm hover:bg-white hover:text-black border border-solid border-black">Know more</a>
-                <a href="#" className="transition-colors duration-100 ease-linear bg-primary px-4 py-2 rounded-sm hover:bg-transparent hover:text-primary border border-solid border-primary">Contact Us</a>
+                <a href="#contact" className="transition-colors duration-100 ease-linear bg-primary px-4 py-2 rounded-sm hover:bg-transparent hover:text-primary border border-solid border-primary">Contact Us</a>
               </div>
             </div>
           </div>
